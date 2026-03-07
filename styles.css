@@ -1,6 +1,33 @@
+p, #navigation
+{
+    font-size: 18px;
+}
+
 #header
 {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+#navigation
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 333px;
+    width: 500px;
+}
+
+#footer
+{
+    background-color: black;
+    color: white;
 }
