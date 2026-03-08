@@ -3,13 +3,6 @@ p, #navigation a
     font-size: 18px;
 }
 
-#navigation a
-{
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
-}
-
 #header
 {
     background-color: black;
@@ -24,6 +17,13 @@ p, #navigation a
     text-align: center;
 }
 
+#navigation a
+{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
 #main-photo
 {
     display: block;
@@ -36,5 +36,10 @@ p, #navigation a
 #footer
 {
     background-color: black;
+    color: white;
+}
+
+#footer a
+{
     color: white;
 }
