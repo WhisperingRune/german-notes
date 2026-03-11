@@ -1,6 +1,8 @@
-p, #navigation a
+*
 {
-    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #header
@@ -8,20 +10,13 @@ p, #navigation a
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #navigation
 {
     background-color: black;
     text-align: center;
-}
-
-#navigation a
-{
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
 }
 
 #main-photo
@@ -39,7 +34,18 @@ p, #navigation a
     color: white;
 }
 
-#footer a
+p, a
+{
+    font-size: 20px;
+}
+
+#navigation a, #footer a
 {
     color: white;
+}
+
+#navigation a
+{
+    text-decoration: none;
+    padding: 14px 16px;
 }
