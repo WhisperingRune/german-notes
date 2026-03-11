@@ -15,6 +15,7 @@
 
 #navigation
 {
+    display: flex;
     background-color: black;
     text-align: center;
 }
